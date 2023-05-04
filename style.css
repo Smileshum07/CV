@@ -1,0 +1,134 @@
+*{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Arima';
+    font-size: calc(12px + 4.5 * (100vw / 1280));
+}
+
+.cv-conteiner {
+    min-width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    padding: 50px 300px 50px 300px;
+}
+
+.left-side {
+    min-width: 5%;
+    background: rgb(202, 198, 198);
+    margin-right: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.photo {
+    border: 3px solid white;
+    width: 55%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.download-icon {
+    text-decoration: none;
+
+}
+
+
+.profile {
+    margin: 50px 20px 40px 20px;
+  
+    
+}
+.contact-list {
+    text-align: start;
+    list-style: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: black;
+    
+}
+.contact-icon {
+    height: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    
+}
+
+
+.main-side {
+    min-width: 60%;
+    background: rgb(253, 242, 242);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.main-side-item {
+    margin: 20px;
+    padding-left: 20px;
+}
+
+h4 {
+    padding-left: 20px;
+    
+}
+h3 {
+    background: rgb(202, 198, 198);
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: calc(18px + 4.5 * (100vw / 1280));
+}
+
+.main-side-item ul {
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.skills-list {
+    list-style: none;
+    display: grid;
+    margin-left: 25px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+   
+}
+
+.skill-items {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    
+
+}
+
+
+.skill-item {
+    max-width: 200px;
+    height: 25px;
+    background: white;
+    border-radius: 10px;
+    
+}
+
+.first-skill {
+    height: 25px;
+    background: gray;
+    border-radius: 10px;
+}
+.skill-name {
+    max-width: 250px;
+    margin-right: 10px;
+}
+
